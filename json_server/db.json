@@ -1,0 +1,67 @@
+{
+  "tanulok": [
+    {
+      "vezeteknev": "Nagy",
+      "keresztnev": "Elek",
+      "kor": "16",
+      "om_azonosito": "1223434222333",
+      "szuletesi_hely": "Békéscsaba",
+      "email": "elek@suli.hu",
+      "id": 1
+    },
+    {
+      "vezeteknev": "Pál",
+      "keresztnev": "János",
+      "kor": "17",
+      "om_azonosito": "32626345234524",
+      "szuletesi_hely": "Gyula",
+      "email": "janos@suli.hu",
+      "id": 2
+    },
+    {
+      "vezeteknev": "Nagy",
+      "keresztnev": "Krisztina",
+      "kor": "18",
+      "om_azonosito": "55457376765",
+      "szuletesi_hely": "Vésztő",
+      "email": "krisztina@suli.hu",
+      "id": 3
+    },
+    {
+      "vezeteknev": "Muhari",
+      "keresztnev": "Géza",
+      "kor": "14",
+      "om_azonosito": "54665665",
+      "szuletesi_hely": "Gerendás",
+      "email": "geza@suli.hu",
+      "id": 4
+    },
+    {
+      "vezeteknev": "teszt",
+      "keresztnev": "teszt",
+      "kor": "13",
+      "om_azonosito": "22222222",
+      "szuletesi_hely": "teszt",
+      "email": "teszt",
+      "id": 5
+    },
+    {
+      "vezeteknev": "Kriszta",
+      "keresztnev": "Kriszta",
+      "kor": "16",
+      "om_azonosito": "3333333333",
+      "szuletesi_hely": "Gyula",
+      "email": "krisztina@suli.hu",
+      "id": 6
+    },
+    {
+      "vezeteknev": "test2",
+      "keresztnev": "test2",
+      "kor": "18",
+      "om_azonosito": "66666666666",
+      "szuletesi_hely": "test2",
+      "email": "test2",
+      "id": 7
+    }
+  ]
+}
