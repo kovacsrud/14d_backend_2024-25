@@ -2,7 +2,7 @@ const express=require('express');
 const cors=require('cors');
 const sqlite3=require('sqlite3');
 const db=new sqlite3.Database('./kutyak.db');
-const {kutyanevek}=require('./dbrepo.js');
+const {kutyanevek,kutyafajtak}=require('./dbrepo.js');
 
 const app=express();
 app.use(cors());
@@ -81,3 +81,15 @@ app.get('/kutyanevek4',async (req,res)=>{
     
 });
 
+app.get('/kutyafajtak',(req,res)=>{
+    kutyafajtak(db).then(adat=>res.json(adat)).catch(err=>res.send(err));
+});
+
+app.get('/kutyafajtak2',async (req,res)=>{
+    try {
+        const adatok= await kutyafajtak(db);
+        res.json(adatok);
+    } catch (error) {
+        res.send(error);
+    }
+});
