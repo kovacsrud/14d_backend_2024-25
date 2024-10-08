@@ -8,6 +8,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(cors());
 app.use('/api/jogallasok',require('./routes/jogallasRoutes'));
 app.use('/api/megyek',require("./routes/megyeRoutes"));
+app.use('/api/telepulesek',require("./routes/telepulesRoutes"));
 
 
 app.listen(8000,()=>{console.log("Running")});

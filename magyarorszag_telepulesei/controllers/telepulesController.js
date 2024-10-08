@@ -1,4 +1,3 @@
-
 const mysql=require('mysql');
 
 const conn=mysql.createConnection(
@@ -9,18 +8,16 @@ const conn=mysql.createConnection(
     }
 );
 
-const jogallaslista=(req,res)=>{
-    conn.query("select jogallas from jogallas",(err,rows)=>{
-        if(err){
-            res.status(400).json(err);
-        } else {
-            res.status(200).json(rows);
-        }
+const telepuleslista=(req,res)=>{
+    conn.query("select distinct nev from telepulesek order by nev",(err,rows)=>{
+        if(err) return res.status(400).json(err);
 
-    });
+        return res.status(200).json(rows);
+
+    });    
 }
 
-const jogallastelepulesei=(req,res)=>{
+const telepules=(req,res)=>{
     conn.query(
         `SELECT
         t.nev as telepulesnev,
@@ -34,22 +31,22 @@ const jogallastelepulesei=(req,res)=>{
         from telepulesek as t
         INNER JOIN jogallas as j ON j.suly=t.jogallas
         INNER JOIN megyek as m ON m.kod=t.megyekod
-        WHERE j.jogallas=?
+        WHERE t.nev=?
         GROUP BY t.nev,t.kshkod,t.terulet,t.lakasok,m.nev,j.jogallas`,
-    [req.params.jogallas],
+    [req.params.telepulesnev],
     (err,rows)=>{
         if(err) return res.status(400).json(err);
 
+        //if(rows[0].telepulesnev!=null) return res.status(200).json(rows);
         if(rows.length>0) return res.status(200).json(rows);
         
-        return res.status(400).json({message:"Nincs ilyen jogállás!"})
+        return res.status(400).json({message:"Nincs ilyen település!"})
 
     })
+
 }
 
-
-
 module.exports={
-    jogallaslista,
-    jogallastelepulesei
+    telepuleslista,
+    telepules
 }
