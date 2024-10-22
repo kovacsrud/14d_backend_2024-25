@@ -1,7 +1,7 @@
 const log=(req,res,next)=>{
     const idopont=new Date();
     const ev=idopont.getFullYear();
-    const honap=idopont.getMonth();
+    const honap=idopont.getMonth()+1;
     const nap=idopont.getDate();
     const ora=idopont.getHours();
     const perc=idopont.getMinutes();
