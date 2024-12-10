@@ -10,7 +10,6 @@ const protect=async (req,res,next)=>{
         try {
             token=req.headers.authorization.split(' ')[1];
             const idFromtoken=jwt.verify(token,process.env.JWT_SECRET);
-            console.log(idFromtoken.id);
             req.user=await User.findById(idFromtoken.id).select('-password');
             next();
             

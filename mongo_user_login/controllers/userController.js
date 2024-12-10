@@ -5,7 +5,7 @@ const jwt=require('jsonwebtoken');
 
 
 const generateToken=(id)=>{
-    return jwt.sign({id},process.env.JWT_SECRET,{expiresIn:"1d"});
+    return jwt.sign({id},process.env.JWT_SECRET,{expiresIn:"1h"});
 }
 
 
@@ -51,7 +51,7 @@ const belepes=async (req,res)=>{
     }
 
     const token=generateToken(user.id);
-    console.log(token);
+    
     return res.status(200).json(token);
 
 }
