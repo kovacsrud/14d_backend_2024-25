@@ -76,3 +76,34 @@ app.post('/post',async (req,res)=>{
 
 });
 
+app.get("/posts",async (req,res)=>{
+
+    try {
+        const posts=await Post.find();
+        if(!posts){
+            return res.status(404).json({message:"Nincsenek posztok"})
+        }
+        return res.status(200).json(posts);
+
+        
+    } catch (error) {
+        res.status(500).json({message:error})
+    }
+
+});
+
+app.get("/userpost",async (req,res)=>{
+    try {
+        const {userId}=req.body;
+        const userPosts=await Post.find({szerzo:userId});
+        if(!userPosts || userPosts.length<1){
+            return res.status(404).json({message:"Ennek a szerzőnek nincsenek posztjai!"});
+        }
+
+        return res.status(200).json(userPosts);
+
+    } catch (error) {
+        res.status(500).json({message:error})
+    }
+})
+
