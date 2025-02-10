@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\rud-2\\kodtarak_2024\\14d_backend_2024-25\\AutokAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AFCAA721-6118-4A5F-A5F4-DCB06418EA68}|AutokAPI\\AutokAPI.csproj|d:\\rud-2\\kodtarak_2024\\14d_backend_2024-25\\autokapi\\autokapi\\controllers\\autocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFCAA721-6118-4A5F-A5F4-DCB06418EA68}|AutokAPI\\AutokAPI.csproj|solutionrelative:autokapi\\controllers\\autocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFCAA721-6118-4A5F-A5F4-DCB06418EA68}|AutokAPI\\AutokAPI.csproj|d:\\rud-2\\kodtarak_2024\\14d_backend_2024-25\\autokapi\\autokapi\\mvvm\\viewmodel\\autoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFCAA721-6118-4A5F-A5F4-DCB06418EA68}|AutokAPI\\AutokAPI.csproj|solutionrelative:autokapi\\mvvm\\viewmodel\\autoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFCAA721-6118-4A5F-A5F4-DCB06418EA68}|AutokAPI\\AutokAPI.csproj|d:\\rud-2\\kodtarak_2024\\14d_backend_2024-25\\autokapi\\autokapi\\mvvm\\model\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFCAA721-6118-4A5F-A5F4-DCB06418EA68}|AutokAPI\\AutokAPI.csproj|solutionrelative:autokapi\\mvvm\\model\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFCAA721-6118-4A5F-A5F4-DCB06418EA68}|AutokAPI\\AutokAPI.csproj|d:\\rud-2\\kodtarak_2024\\14d_backend_2024-25\\autokapi\\autokapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFCAA721-6118-4A5F-A5F4-DCB06418EA68}|AutokAPI\\AutokAPI.csproj|solutionrelative:autokapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129816893:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1594614772:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1687542824:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutoController.cs",
+              "DocumentMoniker": "D:\\rud-2\\kodtarak_2024\\14d_backend_2024-25\\AutokAPI\\AutokAPI\\Controllers\\AutoController.cs",
+              "RelativeDocumentMoniker": "AutokAPI\\Controllers\\AutoController.cs",
+              "ToolTip": "D:\\rud-2\\kodtarak_2024\\14d_backend_2024-25\\AutokAPI\\AutokAPI\\Controllers\\AutoController.cs",
+              "RelativeToolTip": "AutokAPI\\Controllers\\AutoController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAuwE8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T07:48:39.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AutoViewModel.cs",
+              "DocumentMoniker": "D:\\rud-2\\kodtarak_2024\\14d_backend_2024-25\\AutokAPI\\AutokAPI\\mvvm\\viewmodel\\AutoViewModel.cs",
+              "RelativeDocumentMoniker": "AutokAPI\\mvvm\\viewmodel\\AutoViewModel.cs",
+              "ToolTip": "D:\\rud-2\\kodtarak_2024\\14d_backend_2024-25\\AutokAPI\\AutokAPI\\mvvm\\viewmodel\\AutoViewModel.cs",
+              "RelativeToolTip": "AutokAPI\\mvvm\\viewmodel\\AutoViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T07:41:30.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Auto.cs",
+              "DocumentMoniker": "D:\\rud-2\\kodtarak_2024\\14d_backend_2024-25\\AutokAPI\\AutokAPI\\mvvm\\model\\Auto.cs",
+              "RelativeDocumentMoniker": "AutokAPI\\mvvm\\model\\Auto.cs",
+              "ToolTip": "D:\\rud-2\\kodtarak_2024\\14d_backend_2024-25\\AutokAPI\\AutokAPI\\mvvm\\model\\Auto.cs",
+              "RelativeToolTip": "AutokAPI\\mvvm\\model\\Auto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T07:39:19.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\rud-2\\kodtarak_2024\\14d_backend_2024-25\\AutokAPI\\AutokAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "AutokAPI\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\rud-2\\kodtarak_2024\\14d_backend_2024-25\\AutokAPI\\AutokAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "AutokAPI\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T07:23:38.455Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
